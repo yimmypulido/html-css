@@ -1,0 +1,30 @@
+h1 {
+    color: #FFD3A1;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px black;
+    font-family: "Montenegrin Gothic One", serif;
+}
+
+p {
+    font-style: oblique;
+    font-size: 22px;
+    text-shadow: 3px 3px 3px orange;
+    font-family: "Saira Stencil", sans-serif;
+}
+
+.texto1 {
+    background-color: antiquewhite;
+    text-transform: capitalize;
+}
+
+.texto2 {
+    background-color: #9A76A8;
+    font-family: "Montenegrin Gothic One", serif;
+    text-transform: lowercase;
+}
+
+.texto3 {
+    background-color: #3ECAF0;
+    text-transform: uppercase;
+}

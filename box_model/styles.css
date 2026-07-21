@@ -1,0 +1,39 @@
+p {
+    /*margin y pading funciona para absolutamente todas las etiquetas, funcionan con valores en sentido del reloj osea primerp arriba luego derecha luego abajo y ultimo izquierda el valor es en px*/
+    background-color: rgb(255, 228, 196);
+    padding: 15px 5px;
+    margin: 60px;
+    border: 2px solid brown;
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;  /*"asegurar la calidad de una imagen"*/
+    border:  2px solid black;
+    border-radius: 50%;
+    text-shadow: 2px black;
+} */
+
+h1{
+    text-align: center;
+
+}
+
+.texto1 {
+    font-family: "Saira Stencil", sans-serif;
+    padding: 15px 5px;
+    margin-top: 100px;
+}
+.texto2 {
+    font-family: "Montenegrin Gothic One", serif;
+    padding:  19px 6px;
+    margin: 150px 0px 0px 200px;
+}
+
+.texto3 {
+    font-family: "Saira Stencil", sans-serif;
+    padding: 30px 9px;
+    margin: 150px 0px ;
+}
