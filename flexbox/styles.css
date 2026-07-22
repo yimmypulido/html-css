@@ -1,0 +1,67 @@
+*{
+    margin: 0;  /* margen de la pagina */
+    padding: 0; /* espacio por dentro de la pagina */
+    box-sizing: border-box;
+
+} /* esta * etiqueta modifica toda la pagina y las otras etiquetas dentros son fundamentales en todas las paginas que creemos */
+
+body {
+    background-color: rgb(252, 198, 133);
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+
+    display: flex;  /* con esto activamos el flexbox */
+    gap: 15px;
+    flex-wrap: wrap; /* flex-wrap sirve para hacer la pagina responsive osea que se ajuste a cualquier resolucion */
+    justify-content: center;  /* esto sirve para alinear todo el contenido */
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px black;
+    
+}
+
+.card:hover {
+
+    box-shadow: 0px 0px 50px orange;
+    border: solid 2px antiquewhite;
+    transform: rotate(12deg);
+    transform: translateX(15);
+}
+
+
+.imagenDif {
+    height: 400px;
+}
+.image {
+
+    width: 100%;   /* ancho de una imagen */
+    height: 100%;  /* largo de una imagen */
+    object-fit: cover; /* object-fit: cover sirve para centrar la imagen perdiendo parte de imagen pero se ve mejor */
+    transition: .4s ease-in-out;
+    /* filter:grayscale(1); */
+}
+
+.image:hover {
+    transform: scale(1.1);
+    filter:grayscale(0);
+}
+
+.tituloPrincipal {
+    text-align: center; /* centrar texto */
+}
+
