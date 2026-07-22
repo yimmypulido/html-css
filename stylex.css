@@ -4,3 +4,23 @@
     box-sizing: border-box;
 
 }
+
+.header {
+    padding: 30px;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list {
+    display: flex;
+    gap: 20px;
+
+}
+
+.menu_items {
+    list-style: none;
+}
