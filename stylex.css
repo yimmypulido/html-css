@@ -1,58 +1,6 @@
-body {
-    margin:0;
-}
-
-h1
-nav {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    padding: 0 20px;
-}
-span {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-ul.menu {
-    display: flex;
-    gap: 32px;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
-    gap: 20px;
-}
-
-div {
-    width: 360px;
-    border: 2px wheat;
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-style: oblique;
+*{
+    margin: 0;  /* margen de la pagina */
+    padding: 0; /* espacio por dentro de la pagina */
+    box-sizing: border-box;
 
 }
-.lobo {
-    img{
-        width: 360px;
-    }
-}
-/* 
-ul{
-    list-style: none; "quitar los puntos de la lista" */
-
-    button{
-        background-color: black;
-        color: white;
-        display:block;
-        margin: 10px auto;
-        cursor: pointer;
-        width: 200px;
-        font-style: oblique;
-    }
