@@ -8,7 +8,7 @@ nav {
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding: 0 20px;
 }
 span {
@@ -24,14 +24,14 @@ ul.menu {
 section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 20px;
 }
 
 div {
     width: 360px;
-    border: 2px solid wheat;
+    border: 2px wheat;
     text-align: center;
     background-color: black;
     color: white;

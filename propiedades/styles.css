@@ -9,7 +9,7 @@ h1 {
 p {
     font-style: oblique;
     font-size: 22px;
-    text-shadow: 3px 3px 3px orange;
+    text-shadow: 3px 3px 3px rgb(255, 207, 119);
     font-family: "Saira Stencil", sans-serif;
 }
 
